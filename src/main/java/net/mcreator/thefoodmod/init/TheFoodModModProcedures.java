@@ -4,6 +4,7 @@
  */
 package net.mcreator.thefoodmod.init;
 
+import net.mcreator.thefoodmod.procedures.FriedBananasPlayerFinishesUsingItemProcedure;
 import net.mcreator.thefoodmod.procedures.FrenchFriesPlayerFinishesUsingItemProcedure;
 import net.mcreator.thefoodmod.procedures.EggPuddingPlayerFinishesUsingItemProcedure;
 import net.mcreator.thefoodmod.procedures.CarrotCakePlayerFinishesUsingItemProcedure;
@@ -16,5 +17,6 @@ public class TheFoodModModProcedures {
 		new ButteredApplePlayerFinishesUsingItemProcedure();
 		new EggPuddingPlayerFinishesUsingItemProcedure();
 		new FrenchFriesPlayerFinishesUsingItemProcedure();
+		new FriedBananasPlayerFinishesUsingItemProcedure();
 	}
 }
