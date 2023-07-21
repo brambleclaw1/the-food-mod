@@ -16,6 +16,7 @@ import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
 import net.mcreator.thefoodmod.init.TheFoodModModTabs;
+import net.mcreator.thefoodmod.init.TheFoodModModProcedures;
 import net.mcreator.thefoodmod.init.TheFoodModModItems;
 import net.mcreator.thefoodmod.init.TheFoodModModBlocks;
 
@@ -33,6 +34,8 @@ public class TheFoodModMod implements ModInitializer {
 
 		TheFoodModModBlocks.load();
 		TheFoodModModItems.load();
+
+		TheFoodModModProcedures.load();
 
 	}
 }

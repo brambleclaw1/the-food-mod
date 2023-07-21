@@ -86,6 +86,146 @@
         ]
       },
       "path": "~/Crops"
+    },
+    {
+      "name": "ButteredApplePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buttered_apple_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefoodmod/procedures/ButteredApplePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Bakable Items"
+    },
+    {
+      "name": "ButteredApple",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buttered_apple",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_food_mod/models/item/buttered_apple.json",
+          "src/main/java/net/mcreator/thefoodmod/item/ButteredAppleItem.java"
+        ]
+      },
+      "path": "~/Bakable Items"
+    },
+    {
+      "name": "CarrotCakePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carrot_cake_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefoodmod/procedures/CarrotCakePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Bakable Items"
+    },
+    {
+      "name": "CarrotCake",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carrot_cake",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_food_mod/models/item/carrot_cake.json",
+          "src/main/java/net/mcreator/thefoodmod/item/CarrotCakeItem.java"
+        ]
+      },
+      "path": "~/Bakable Items"
+    },
+    {
+      "name": "EggPuddingPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_pudding_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefoodmod/procedures/EggPuddingPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Bakable Items"
+    },
+    {
+      "name": "EggPudding",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_pudding",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_food_mod/models/item/egg_pudding.json",
+          "src/main/java/net/mcreator/thefoodmod/item/EggPuddingItem.java"
+        ]
+      },
+      "path": "~/Bakable Items"
+    },
+    {
+      "name": "FrenchFriesPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "french_fries_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefoodmod/procedures/FrenchFriesPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Bakable Items"
+    },
+    {
+      "name": "FrenchFries",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "french_fries",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_food_mod/models/item/french_fries.json",
+          "src/main/java/net/mcreator/thefoodmod/item/FrenchFriesItem.java"
+        ]
+      },
+      "path": "~/Bakable Items"
     }
   ],
   "variable_elements": [],
@@ -95,7 +235,11 @@
       "item.the_food_mod.mighty_banana": "Mighty Banana",
       "item.the_food_mod.hearty_radish": "Hearty Radish",
       "block.the_food_mod.hearty_radish_plant": "Hearty Radish Plant",
+      "item.the_food_mod.buttered_apple": "Buttered Apple",
+      "item.the_food_mod.egg_pudding": "Egg Pudding",
+      "item.the_food_mod.french_fries": "French Fries",
       "item.the_food_mod.spicy_pepper": "Spicy Pepper",
+      "item.the_food_mod.carrot_cake": "Carrot Cake",
       "item_group.the_food_mod.the_food_mod": "The Food Mod",
       "item.the_food_mod.tomato": "Tomato"
     }
@@ -117,6 +261,14 @@
       },
       {
         "name": "Crops",
+        "children": []
+      },
+      {
+        "name": "Bakable Items",
+        "children": []
+      },
+      {
+        "name": "Procedures",
         "children": []
       }
     ]

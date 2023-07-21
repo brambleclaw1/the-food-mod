@@ -15,6 +15,10 @@ import net.mcreator.thefoodmod.item.TomatoItem;
 import net.mcreator.thefoodmod.item.SpicyPepperItem;
 import net.mcreator.thefoodmod.item.MightyBananaItem;
 import net.mcreator.thefoodmod.item.HeartyRadishItem;
+import net.mcreator.thefoodmod.item.FrenchFriesItem;
+import net.mcreator.thefoodmod.item.EggPuddingItem;
+import net.mcreator.thefoodmod.item.CarrotCakeItem;
+import net.mcreator.thefoodmod.item.ButteredAppleItem;
 import net.mcreator.thefoodmod.TheFoodModMod;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -25,6 +29,10 @@ public class TheFoodModModItems {
 	public static Item HEARTY_RADISH;
 	public static Item SPICY_PEPPER;
 	public static Item HEARTY_RADISH_PLANT;
+	public static Item BUTTERED_APPLE;
+	public static Item CARROT_CAKE;
+	public static Item EGG_PUDDING;
+	public static Item FRENCH_FRIES;
 
 	public static void load() {
 		MIGHTY_BANANA = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(TheFoodModMod.MODID, "mighty_banana"), new MightyBananaItem());
@@ -33,5 +41,9 @@ public class TheFoodModModItems {
 		SPICY_PEPPER = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(TheFoodModMod.MODID, "spicy_pepper"), new SpicyPepperItem());
 		HEARTY_RADISH_PLANT = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(TheFoodModMod.MODID, "hearty_radish_plant"), new BlockItem(TheFoodModModBlocks.HEARTY_RADISH_PLANT, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.NATURAL_BLOCKS).register(content -> content.accept(HEARTY_RADISH_PLANT));
+		BUTTERED_APPLE = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(TheFoodModMod.MODID, "buttered_apple"), new ButteredAppleItem());
+		CARROT_CAKE = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(TheFoodModMod.MODID, "carrot_cake"), new CarrotCakeItem());
+		EGG_PUDDING = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(TheFoodModMod.MODID, "egg_pudding"), new EggPuddingItem());
+		FRENCH_FRIES = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(TheFoodModMod.MODID, "french_fries"), new FrenchFriesItem());
 	}
 }
