@@ -9,13 +9,95 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "Tomato",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tomato",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_food_mod/models/item/tomato.json",
+          "src/main/java/net/mcreator/thefoodmod/item/TomatoItem.java"
+        ]
+      },
+      "path": "~/Food"
+    },
+    {
+      "name": "MightyBanana",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mighty_banana",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_food_mod/models/item/mighty_banana.json",
+          "src/main/java/net/mcreator/thefoodmod/item/MightyBananaItem.java"
+        ]
+      },
+      "path": "~/Food"
+    },
+    {
+      "name": "HeartyRadish",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hearty_radish",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_food_mod/models/item/hearty_radish.json",
+          "src/main/java/net/mcreator/thefoodmod/item/HeartyRadishItem.java"
+        ]
+      },
+      "path": "~/Food"
+    },
+    {
+      "name": "SpicyPepper",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spicy_pepper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefoodmod/item/SpicyPepperItem.java",
+          "src/main/resources/assets/the_food_mod/models/item/spicy_pepper.json"
+        ]
+      },
+      "path": "~/Food"
+    },
+    {
+      "name": "HeartyRadishPlant",
+      "type": "plant",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hearty_radish_plant",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefoodmod/block/HeartyRadishPlantBlock.java",
+          "src/main/resources/assets/the_food_mod/blockstates/hearty_radish_plant.json",
+          "src/main/resources/assets/the_food_mod/models/item/hearty_radish_plant.json",
+          "src/main/resources/assets/the_food_mod/models/block/hearty_radish_plant.json"
+        ]
+      },
+      "path": "~/Crops"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item_group.the_food_mod.the_food_mod": "The Food Mod"
+      "item.the_food_mod.mighty_banana": "Mighty Banana",
+      "item.the_food_mod.hearty_radish": "Hearty Radish",
+      "block.the_food_mod.hearty_radish_plant": "Hearty Radish Plant",
+      "item.the_food_mod.spicy_pepper": "Spicy Pepper",
+      "item_group.the_food_mod.the_food_mod": "The Food Mod",
+      "item.the_food_mod.tomato": "Tomato"
     }
   },
   "foldersRoot": {
@@ -31,6 +113,10 @@
       },
       {
         "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Crops",
         "children": []
       }
     ]
