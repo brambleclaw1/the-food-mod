@@ -1,13 +1,20 @@
 {
-  "item.the_food_mod.mighty_banana": "Mighty Banana",
-  "item.the_food_mod.hearty_radish": "Hearty Radish",
-  "block.the_food_mod.hearty_radish_plant": "Hearty Radish Plant",
+  "item.the_food_mod.grilled_greens": "Grilled Greens",
+  "item.the_food_mod.meat_stew": "Meat Stew",
   "item.the_food_mod.buttered_apple": "Buttered Apple",
-  "item.the_food_mod.egg_pudding": "Egg Pudding",
   "item.the_food_mod.french_fries": "French Fries",
   "item.the_food_mod.fried_bananas": "Fried Bananas",
   "item.the_food_mod.spicy_pepper": "Spicy Pepper",
-  "item.the_food_mod.carrot_cake": "Carrot Cake",
   "item_group.the_food_mod.the_food_mod": "The Food Mod",
-  "item.the_food_mod.tomato": "Tomato"
+  "item.the_food_mod.tomato": "Tomato",
+  "item.the_food_mod.meat_skewer": "Meat Skewer",
+  "item.the_food_mod.mighty_banana": "Mighty Banana",
+  "item.the_food_mod.hearty_radish": "Hearty Radish",
+  "item.the_food_mod.fried_egg": "Fried Egg",
+  "item.the_food_mod.hearty_soup": "Hearty Soup",
+  "block.the_food_mod.hearty_radish_plant": "Hearty Radish Plant",
+  "item.the_food_mod.egg_pudding": "Egg Pudding",
+  "item.the_food_mod.carrot_cake": "Carrot Cake",
+  "item.the_food_mod.fruit_and_mushroom_mix": "Fruit And Mushroom Mix",
+  "item.the_food_mod.honeyed_apple": "Honeyed Apple"
 }

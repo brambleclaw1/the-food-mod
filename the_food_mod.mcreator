@@ -261,23 +261,270 @@
         ]
       },
       "path": "~/Bakable Items"
+    },
+    {
+      "name": "FriedEggPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fried_egg_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefoodmod/procedures/FriedEggPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Bakable Items"
+    },
+    {
+      "name": "FriedEgg",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fried_egg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefoodmod/item/FriedEggItem.java",
+          "src/main/resources/assets/the_food_mod/models/item/fried_egg.json"
+        ]
+      },
+      "path": "~/Bakable Items"
+    },
+    {
+      "name": "FruitAndMushroomMixPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fruit_and_mushroom_mix_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefoodmod/procedures/FruitAndMushroomMixPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Bakable Items"
+    },
+    {
+      "name": "FruitAndMushroomMix",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fruit_and_mushroom_mix",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefoodmod/item/FruitAndMushroomMixItem.java",
+          "src/main/resources/assets/the_food_mod/models/item/fruit_and_mushroom_mix.json"
+        ]
+      },
+      "path": "~/Bakable Items"
+    },
+    {
+      "name": "GrilledGreensPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grilled_greens_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefoodmod/procedures/GrilledGreensPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Bakable Items"
+    },
+    {
+      "name": "GrilledGreens",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grilled_greens",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefoodmod/item/GrilledGreensItem.java",
+          "src/main/resources/assets/the_food_mod/models/item/grilled_greens.json"
+        ]
+      },
+      "path": "~/Bakable Items"
+    },
+    {
+      "name": "HeartySoupPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hearty_soup_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefoodmod/procedures/HeartySoupPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Bakable Items"
+    },
+    {
+      "name": "HeartySoup",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hearty_soup",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_food_mod/models/item/hearty_soup.json",
+          "src/main/java/net/mcreator/thefoodmod/item/HeartySoupItem.java"
+        ]
+      },
+      "path": "~/Bakable Items"
+    },
+    {
+      "name": "HoneyedApplePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "honeyed_apple_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefoodmod/procedures/HoneyedApplePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Bakable Items"
+    },
+    {
+      "name": "HoneyedApple",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "honeyed_apple",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_food_mod/models/item/honeyed_apple.json",
+          "src/main/java/net/mcreator/thefoodmod/item/HoneyedAppleItem.java"
+        ]
+      },
+      "path": "~/Bakable Items"
+    },
+    {
+      "name": "MeatSkewerPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meat_skewer_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefoodmod/procedures/MeatSkewerPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Bakable Items"
+    },
+    {
+      "name": "MeatSkewer",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meat_skewer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_food_mod/models/item/meat_skewer.json",
+          "src/main/java/net/mcreator/thefoodmod/item/MeatSkewerItem.java"
+        ]
+      },
+      "path": "~/Bakable Items"
+    },
+    {
+      "name": "MeatStewPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meat_stew_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefoodmod/procedures/MeatStewPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Bakable Items"
+    },
+    {
+      "name": "MeatStew",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meat_stew",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefoodmod/item/MeatStewItem.java",
+          "src/main/resources/assets/the_food_mod/models/item/meat_stew.json"
+        ]
+      },
+      "path": "~/Bakable Items"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.the_food_mod.mighty_banana": "Mighty Banana",
-      "item.the_food_mod.hearty_radish": "Hearty Radish",
-      "block.the_food_mod.hearty_radish_plant": "Hearty Radish Plant",
+      "item.the_food_mod.grilled_greens": "Grilled Greens",
+      "item.the_food_mod.meat_stew": "Meat Stew",
       "item.the_food_mod.buttered_apple": "Buttered Apple",
-      "item.the_food_mod.egg_pudding": "Egg Pudding",
       "item.the_food_mod.french_fries": "French Fries",
       "item.the_food_mod.fried_bananas": "Fried Bananas",
       "item.the_food_mod.spicy_pepper": "Spicy Pepper",
-      "item.the_food_mod.carrot_cake": "Carrot Cake",
       "item_group.the_food_mod.the_food_mod": "The Food Mod",
-      "item.the_food_mod.tomato": "Tomato"
+      "item.the_food_mod.tomato": "Tomato",
+      "item.the_food_mod.meat_skewer": "Meat Skewer",
+      "item.the_food_mod.mighty_banana": "Mighty Banana",
+      "item.the_food_mod.hearty_radish": "Hearty Radish",
+      "item.the_food_mod.fried_egg": "Fried Egg",
+      "item.the_food_mod.hearty_soup": "Hearty Soup",
+      "block.the_food_mod.hearty_radish_plant": "Hearty Radish Plant",
+      "item.the_food_mod.egg_pudding": "Egg Pudding",
+      "item.the_food_mod.carrot_cake": "Carrot Cake",
+      "item.the_food_mod.fruit_and_mushroom_mix": "Fruit And Mushroom Mix",
+      "item.the_food_mod.honeyed_apple": "Honeyed Apple"
     }
   },
   "foldersRoot": {
@@ -313,11 +560,13 @@
     "modid": "the_food_mod",
     "modName": "The Food Mod",
     "version": "1.0.0",
-    "author": "gavin, MCreator",
+    "description": "Adds a ton of food and dishes to Minecraft.",
+    "author": "gh5674",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "modPicture": "honeyed_apple",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],

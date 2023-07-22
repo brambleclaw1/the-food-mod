@@ -3,14 +3,16 @@
   "id": "the_food_mod",
   "version": "1.0.0",
   "name": "The Food Mod",
+  "description": "Adds a ton of food and dishes to Minecraft.",
   "authors": [
-    "gavin, MCreator"
+    "gh5674"
   ],
   "contact": {
     "homepage": "https://mcreator.net",
     "sources": ""
   },
   "license": "Academic Free License v3.0",
+  "icon": "assets/the_food_mod/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [

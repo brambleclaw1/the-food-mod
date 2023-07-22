@@ -4,6 +4,13 @@
  */
 package net.mcreator.thefoodmod.init;
 
+import net.mcreator.thefoodmod.procedures.MeatStewPlayerFinishesUsingItemProcedure;
+import net.mcreator.thefoodmod.procedures.MeatSkewerPlayerFinishesUsingItemProcedure;
+import net.mcreator.thefoodmod.procedures.HoneyedApplePlayerFinishesUsingItemProcedure;
+import net.mcreator.thefoodmod.procedures.HeartySoupPlayerFinishesUsingItemProcedure;
+import net.mcreator.thefoodmod.procedures.GrilledGreensPlayerFinishesUsingItemProcedure;
+import net.mcreator.thefoodmod.procedures.FruitAndMushroomMixPlayerFinishesUsingItemProcedure;
+import net.mcreator.thefoodmod.procedures.FriedEggPlayerFinishesUsingItemProcedure;
 import net.mcreator.thefoodmod.procedures.FriedBananasPlayerFinishesUsingItemProcedure;
 import net.mcreator.thefoodmod.procedures.FrenchFriesPlayerFinishesUsingItemProcedure;
 import net.mcreator.thefoodmod.procedures.EggPuddingPlayerFinishesUsingItemProcedure;
@@ -18,5 +25,12 @@ public class TheFoodModModProcedures {
 		new EggPuddingPlayerFinishesUsingItemProcedure();
 		new FrenchFriesPlayerFinishesUsingItemProcedure();
 		new FriedBananasPlayerFinishesUsingItemProcedure();
+		new FriedEggPlayerFinishesUsingItemProcedure();
+		new FruitAndMushroomMixPlayerFinishesUsingItemProcedure();
+		new GrilledGreensPlayerFinishesUsingItemProcedure();
+		new HeartySoupPlayerFinishesUsingItemProcedure();
+		new HoneyedApplePlayerFinishesUsingItemProcedure();
+		new MeatSkewerPlayerFinishesUsingItemProcedure();
+		new MeatStewPlayerFinishesUsingItemProcedure();
 	}
 }
