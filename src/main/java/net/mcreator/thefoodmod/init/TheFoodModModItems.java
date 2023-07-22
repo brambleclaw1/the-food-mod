@@ -12,7 +12,15 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.Registry;
 
 import net.mcreator.thefoodmod.item.TomatoItem;
+import net.mcreator.thefoodmod.item.SteamedMushroomItem;
+import net.mcreator.thefoodmod.item.SteamedMeatItem;
+import net.mcreator.thefoodmod.item.SteamedFruitItem;
+import net.mcreator.thefoodmod.item.SteamedFishItem;
 import net.mcreator.thefoodmod.item.SpicyPepperItem;
+import net.mcreator.thefoodmod.item.SauteedPeppersItem;
+import net.mcreator.thefoodmod.item.RadishSaladItem;
+import net.mcreator.thefoodmod.item.PepperSaladItem;
+import net.mcreator.thefoodmod.item.MushroomSkewerItem;
 import net.mcreator.thefoodmod.item.MightyBananaItem;
 import net.mcreator.thefoodmod.item.MeatStewItem;
 import net.mcreator.thefoodmod.item.MeatSkewerItem;
@@ -49,6 +57,14 @@ public class TheFoodModModItems {
 	public static Item HONEYED_APPLE;
 	public static Item MEAT_SKEWER;
 	public static Item MEAT_STEW;
+	public static Item MUSHROOM_SKEWER;
+	public static Item PEPPER_SALAD;
+	public static Item RADISH_SALAD;
+	public static Item SAUTEED_PEPPERS;
+	public static Item STEAMED_FISH;
+	public static Item STEAMED_FRUIT;
+	public static Item STEAMED_MEAT;
+	public static Item STEAMED_MUSHROOM;
 
 	public static void load() {
 		MIGHTY_BANANA = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(TheFoodModMod.MODID, "mighty_banana"), new MightyBananaItem());
@@ -69,5 +85,13 @@ public class TheFoodModModItems {
 		HONEYED_APPLE = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(TheFoodModMod.MODID, "honeyed_apple"), new HoneyedAppleItem());
 		MEAT_SKEWER = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(TheFoodModMod.MODID, "meat_skewer"), new MeatSkewerItem());
 		MEAT_STEW = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(TheFoodModMod.MODID, "meat_stew"), new MeatStewItem());
+		MUSHROOM_SKEWER = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(TheFoodModMod.MODID, "mushroom_skewer"), new MushroomSkewerItem());
+		PEPPER_SALAD = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(TheFoodModMod.MODID, "pepper_salad"), new PepperSaladItem());
+		RADISH_SALAD = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(TheFoodModMod.MODID, "radish_salad"), new RadishSaladItem());
+		SAUTEED_PEPPERS = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(TheFoodModMod.MODID, "sauteed_peppers"), new SauteedPeppersItem());
+		STEAMED_FISH = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(TheFoodModMod.MODID, "steamed_fish"), new SteamedFishItem());
+		STEAMED_FRUIT = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(TheFoodModMod.MODID, "steamed_fruit"), new SteamedFruitItem());
+		STEAMED_MEAT = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(TheFoodModMod.MODID, "steamed_meat"), new SteamedMeatItem());
+		STEAMED_MUSHROOM = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(TheFoodModMod.MODID, "steamed_mushroom"), new SteamedMushroomItem());
 	}
 }

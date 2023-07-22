@@ -501,6 +501,286 @@
         ]
       },
       "path": "~/Bakable Items"
+    },
+    {
+      "name": "MushroomSkewerPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_skewer_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefoodmod/procedures/MushroomSkewerPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Bakable Items"
+    },
+    {
+      "name": "MushroomSkewer",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_skewer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefoodmod/item/MushroomSkewerItem.java",
+          "src/main/resources/assets/the_food_mod/models/item/mushroom_skewer.json"
+        ]
+      },
+      "path": "~/Bakable Items"
+    },
+    {
+      "name": "PepperSaladPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pepper_salad_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefoodmod/procedures/PepperSaladPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Bakable Items"
+    },
+    {
+      "name": "PepperSalad",
+      "type": "item",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pepper_salad",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefoodmod/item/PepperSaladItem.java",
+          "src/main/resources/assets/the_food_mod/models/item/pepper_salad.json"
+        ]
+      },
+      "path": "~/Bakable Items"
+    },
+    {
+      "name": "RadishSaladPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radish_salad_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefoodmod/procedures/RadishSaladPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Bakable Items"
+    },
+    {
+      "name": "RadishSalad",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radish_salad",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_food_mod/models/item/radish_salad.json",
+          "src/main/java/net/mcreator/thefoodmod/item/RadishSaladItem.java"
+        ]
+      },
+      "path": "~/Bakable Items"
+    },
+    {
+      "name": "SauteedPeppersPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sauteed_peppers_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefoodmod/procedures/SauteedPeppersPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Bakable Items"
+    },
+    {
+      "name": "SauteedPeppers",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sauteed_peppers",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefoodmod/item/SauteedPeppersItem.java",
+          "src/main/resources/assets/the_food_mod/models/item/sauteed_peppers.json"
+        ]
+      },
+      "path": "~/Bakable Items"
+    },
+    {
+      "name": "SteamedFishPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steamed_fish_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefoodmod/procedures/SteamedFishPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Bakable Items"
+    },
+    {
+      "name": "SteamedFish",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steamed_fish",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_food_mod/models/item/steamed_fish.json",
+          "src/main/java/net/mcreator/thefoodmod/item/SteamedFishItem.java"
+        ]
+      },
+      "path": "~/Bakable Items"
+    },
+    {
+      "name": "SteamedFruitPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steamed_fruit_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefoodmod/procedures/SteamedFruitPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Bakable Items"
+    },
+    {
+      "name": "SteamedFruit",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steamed_fruit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefoodmod/item/SteamedFruitItem.java",
+          "src/main/resources/assets/the_food_mod/models/item/steamed_fruit.json"
+        ]
+      },
+      "path": "~/Bakable Items"
+    },
+    {
+      "name": "SteamedMeatPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steamed_meat_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefoodmod/procedures/SteamedMeatPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Bakable Items"
+    },
+    {
+      "name": "SteamedMeat",
+      "type": "item",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steamed_meat",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_food_mod/models/item/steamed_meat.json",
+          "src/main/java/net/mcreator/thefoodmod/item/SteamedMeatItem.java"
+        ]
+      },
+      "path": "~/Bakable Items"
+    },
+    {
+      "name": "SteamedMushroomPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steamed_mushroom_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefoodmod/procedures/SteamedMushroomPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Bakable Items"
+    },
+    {
+      "name": "SteamedMushroom",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steamed_mushroom",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_food_mod/models/item/steamed_mushroom.json",
+          "src/main/java/net/mcreator/thefoodmod/item/SteamedMushroomItem.java"
+        ]
+      },
+      "path": "~/Bakable Items"
     }
   ],
   "variable_elements": [],
@@ -508,22 +788,30 @@
   "language_map": {
     "en_us": {
       "item.the_food_mod.grilled_greens": "Grilled Greens",
+      "item.the_food_mod.radish_salad": "Radish Salad",
+      "item.the_food_mod.steamed_fruit": "Steamed Fruit",
+      "item.the_food_mod.spicy_pepper": "Spicy Pepper",
+      "item.the_food_mod.steamed_meat": "Steamed Meat",
+      "item_group.the_food_mod.the_food_mod": "The Food Mod",
+      "item.the_food_mod.meat_skewer": "Meat Skewer",
+      "item.the_food_mod.mushroom_skewer": "Mushroom Skewer",
+      "item.the_food_mod.sauteed_peppers": "Sauteed Peppers",
+      "item.the_food_mod.mighty_banana": "Mighty Banana",
+      "item.the_food_mod.hearty_soup": "Hearty Soup",
+      "item.the_food_mod.steamed_mushroom": "Steamed Mushroom",
+      "block.the_food_mod.hearty_radish_plant": "Hearty Radish Plant",
+      "item.the_food_mod.pepper_salad": "Pepper Salad",
       "item.the_food_mod.meat_stew": "Meat Stew",
       "item.the_food_mod.buttered_apple": "Buttered Apple",
       "item.the_food_mod.french_fries": "French Fries",
       "item.the_food_mod.fried_bananas": "Fried Bananas",
-      "item.the_food_mod.spicy_pepper": "Spicy Pepper",
-      "item_group.the_food_mod.the_food_mod": "The Food Mod",
       "item.the_food_mod.tomato": "Tomato",
-      "item.the_food_mod.meat_skewer": "Meat Skewer",
-      "item.the_food_mod.mighty_banana": "Mighty Banana",
-      "item.the_food_mod.hearty_radish": "Hearty Radish",
       "item.the_food_mod.fried_egg": "Fried Egg",
-      "item.the_food_mod.hearty_soup": "Hearty Soup",
-      "block.the_food_mod.hearty_radish_plant": "Hearty Radish Plant",
+      "item.the_food_mod.hearty_radish": "Hearty Radish",
       "item.the_food_mod.egg_pudding": "Egg Pudding",
       "item.the_food_mod.carrot_cake": "Carrot Cake",
       "item.the_food_mod.fruit_and_mushroom_mix": "Fruit And Mushroom Mix",
+      "item.the_food_mod.steamed_fish": "Steamed Fish",
       "item.the_food_mod.honeyed_apple": "Honeyed Apple"
     }
   },
