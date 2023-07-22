@@ -781,6 +781,41 @@
         ]
       },
       "path": "~/Bakable Items"
+    },
+    {
+      "name": "PizzaPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pizza_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thefoodmod/procedures/PizzaPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Bakable Items"
+    },
+    {
+      "name": "Pizza",
+      "type": "item",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pizza",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_food_mod/models/item/pizza.json",
+          "src/main/java/net/mcreator/thefoodmod/item/PizzaItem.java"
+        ]
+      },
+      "path": "~/Bakable Items"
     }
   ],
   "variable_elements": [],
@@ -788,6 +823,7 @@
   "language_map": {
     "en_us": {
       "item.the_food_mod.grilled_greens": "Grilled Greens",
+      "item.the_food_mod.pizza": "Pizza",
       "item.the_food_mod.radish_salad": "Radish Salad",
       "item.the_food_mod.steamed_fruit": "Steamed Fruit",
       "item.the_food_mod.spicy_pepper": "Spicy Pepper",

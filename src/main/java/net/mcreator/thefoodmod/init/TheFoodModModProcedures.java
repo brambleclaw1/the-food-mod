@@ -10,6 +10,7 @@ import net.mcreator.thefoodmod.procedures.SteamedFruitPlayerFinishesUsingItemPro
 import net.mcreator.thefoodmod.procedures.SteamedFishPlayerFinishesUsingItemProcedure;
 import net.mcreator.thefoodmod.procedures.SauteedPeppersPlayerFinishesUsingItemProcedure;
 import net.mcreator.thefoodmod.procedures.RadishSaladPlayerFinishesUsingItemProcedure;
+import net.mcreator.thefoodmod.procedures.PizzaPlayerFinishesUsingItemProcedure;
 import net.mcreator.thefoodmod.procedures.PepperSaladPlayerFinishesUsingItemProcedure;
 import net.mcreator.thefoodmod.procedures.MushroomSkewerPlayerFinishesUsingItemProcedure;
 import net.mcreator.thefoodmod.procedures.MeatStewPlayerFinishesUsingItemProcedure;
@@ -48,5 +49,6 @@ public class TheFoodModModProcedures {
 		new SteamedFruitPlayerFinishesUsingItemProcedure();
 		new SteamedMeatPlayerFinishesUsingItemProcedure();
 		new SteamedMushroomPlayerFinishesUsingItemProcedure();
+		new PizzaPlayerFinishesUsingItemProcedure();
 	}
 }

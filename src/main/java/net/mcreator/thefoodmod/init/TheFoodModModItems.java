@@ -19,6 +19,7 @@ import net.mcreator.thefoodmod.item.SteamedFishItem;
 import net.mcreator.thefoodmod.item.SpicyPepperItem;
 import net.mcreator.thefoodmod.item.SauteedPeppersItem;
 import net.mcreator.thefoodmod.item.RadishSaladItem;
+import net.mcreator.thefoodmod.item.PizzaItem;
 import net.mcreator.thefoodmod.item.PepperSaladItem;
 import net.mcreator.thefoodmod.item.MushroomSkewerItem;
 import net.mcreator.thefoodmod.item.MightyBananaItem;
@@ -65,6 +66,7 @@ public class TheFoodModModItems {
 	public static Item STEAMED_FRUIT;
 	public static Item STEAMED_MEAT;
 	public static Item STEAMED_MUSHROOM;
+	public static Item PIZZA;
 
 	public static void load() {
 		MIGHTY_BANANA = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(TheFoodModMod.MODID, "mighty_banana"), new MightyBananaItem());
@@ -93,5 +95,6 @@ public class TheFoodModModItems {
 		STEAMED_FRUIT = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(TheFoodModMod.MODID, "steamed_fruit"), new SteamedFruitItem());
 		STEAMED_MEAT = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(TheFoodModMod.MODID, "steamed_meat"), new SteamedMeatItem());
 		STEAMED_MUSHROOM = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(TheFoodModMod.MODID, "steamed_mushroom"), new SteamedMushroomItem());
+		PIZZA = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(TheFoodModMod.MODID, "pizza"), new PizzaItem());
 	}
 }
