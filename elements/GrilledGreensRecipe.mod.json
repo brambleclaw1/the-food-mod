@@ -1,0 +1,22 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Campfire cooking",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 600,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "campfireCookingInputStack": {
+      "value": "Blocks.LEAVES"
+    },
+    "campfireCookingReturnStack": {
+      "value": "CUSTOM:GrilledGreens"
+    },
+    "name": "grilled_greens_recipe",
+    "namespace": "mod"
+  }
+}

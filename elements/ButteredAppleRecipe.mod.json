@@ -1,0 +1,22 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Campfire cooking",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "FOOD",
+    "xpReward": 1.0,
+    "cookingTime": 600,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "campfireCookingInputStack": {
+      "value": "Items.APPLE"
+    },
+    "campfireCookingReturnStack": {
+      "value": "CUSTOM:ButteredApple"
+    },
+    "name": "buttered_apple_recipe",
+    "namespace": "mod"
+  }
+}

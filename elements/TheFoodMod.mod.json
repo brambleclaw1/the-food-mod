@@ -4,7 +4,7 @@
   "definition": {
     "name": "The Food Mod",
     "icon": {
-      "value": "Items.COOKIE"
+      "value": "CUSTOM:HoneyedApple"
     },
     "showSearch": false
   }

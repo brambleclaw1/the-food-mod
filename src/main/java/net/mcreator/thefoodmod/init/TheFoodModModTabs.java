@@ -4,7 +4,6 @@
  */
 package net.mcreator.thefoodmod.init;
 
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.resources.ResourceLocation;
@@ -22,6 +21,7 @@ public class TheFoodModModTabs {
 	public static ResourceKey<CreativeModeTab> TAB_THE_FOOD_MOD = ResourceKey.create(Registries.CREATIVE_MODE_TAB, new ResourceLocation(TheFoodModMod.MODID, "the_food_mod"));
 
 	public static void load() {
-		Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, TAB_THE_FOOD_MOD, FabricItemGroup.builder().title(Component.translatable("item_group." + TheFoodModMod.MODID + ".the_food_mod")).icon(() -> new ItemStack(Items.COOKIE)).build());
+		Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, TAB_THE_FOOD_MOD,
+				FabricItemGroup.builder().title(Component.translatable("item_group." + TheFoodModMod.MODID + ".the_food_mod")).icon(() -> new ItemStack(TheFoodModModItems.HONEYED_APPLE)).build());
 	}
 }

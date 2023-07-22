@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:honey_bottle"
+    },
+    "1": {
+      "item": "minecraft:apple"
+    },
+    "2": {
+      "item": "minecraft:honey_bottle"
+    }
+  },
+  "result": {
+    "item": "the_food_mod:honeyed_apple",
+    "count": 1
+  }
+}

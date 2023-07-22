@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "the_food_mod:hearty_radish"
+    },
+    "1": {
+      "item": "minecraft:oak_leaves"
+    }
+  },
+  "result": {
+    "item": "the_food_mod:radish_salad",
+    "count": 1
+  }
+}

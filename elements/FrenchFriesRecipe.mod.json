@@ -1,0 +1,22 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "FOOD",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "Items.BAKED_POTATO"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:FrenchFries"
+    },
+    "name": "french_fries_recipe",
+    "namespace": "mod"
+  }
+}
