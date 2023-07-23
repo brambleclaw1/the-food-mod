@@ -15,10 +15,10 @@ package net.mcreator.thefoodmod;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
+import net.mcreator.thefoodmod.init.TheFoodModModTrades;
 import net.mcreator.thefoodmod.init.TheFoodModModTabs;
 import net.mcreator.thefoodmod.init.TheFoodModModProcedures;
 import net.mcreator.thefoodmod.init.TheFoodModModItems;
-import net.mcreator.thefoodmod.init.TheFoodModModBlocks;
 
 import net.fabricmc.api.ModInitializer;
 
@@ -32,10 +32,11 @@ public class TheFoodModMod implements ModInitializer {
 
 		TheFoodModModTabs.load();
 
-		TheFoodModModBlocks.load();
 		TheFoodModModItems.load();
 
 		TheFoodModModProcedures.load();
+
+		TheFoodModModTrades.registerTrades();
 
 	}
 }

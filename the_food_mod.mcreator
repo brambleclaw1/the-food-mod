@@ -71,23 +71,6 @@
       "path": "~/Food"
     },
     {
-      "name": "HeartyRadishPlant",
-      "type": "plant",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hearty_radish_plant",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/thefoodmod/block/HeartyRadishPlantBlock.java",
-          "src/main/resources/assets/the_food_mod/blockstates/hearty_radish_plant.json",
-          "src/main/resources/assets/the_food_mod/models/item/hearty_radish_plant.json",
-          "src/main/resources/assets/the_food_mod/models/block/hearty_radish_plant.json"
-        ]
-      },
-      "path": "~/Crops"
-    },
-    {
       "name": "ButteredApplePlayerFinishesUsingItem",
       "type": "procedure",
       "sortid": 8,
@@ -1110,6 +1093,54 @@
         ]
       },
       "path": "~/Recipes"
+    },
+    {
+      "name": "MightyBananaTrade",
+      "type": "villagertrade",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mighty_banana_trade",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Trades"
+    },
+    {
+      "name": "TomatoTrade",
+      "type": "villagertrade",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tomato_trade",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Trades"
+    },
+    {
+      "name": "SpicyPepperTrade",
+      "type": "villagertrade",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spicy_pepper_trade",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Trades"
+    },
+    {
+      "name": "HeartyRadishTrade",
+      "type": "villagertrade",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hearty_radish_trade",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Trades"
     }
   ],
   "variable_elements": [],
@@ -1127,9 +1158,8 @@
       "item.the_food_mod.mushroom_skewer": "Mushroom Skewer",
       "item.the_food_mod.sauteed_peppers": "Sauteed Peppers",
       "item.the_food_mod.mighty_banana": "Mighty Banana",
-      "item.the_food_mod.hearty_soup": "Hearty Soup",
       "item.the_food_mod.steamed_mushroom": "Steamed Mushroom",
-      "block.the_food_mod.hearty_radish_plant": "Hearty Radish Plant",
+      "item.the_food_mod.hearty_soup": "Hearty Soup",
       "item.the_food_mod.pepper_salad": "Pepper Salad",
       "item.the_food_mod.meat_stew": "Meat Stew",
       "item.the_food_mod.buttered_apple": "Buttered Apple",
@@ -1163,6 +1193,10 @@
       {
         "name": "Recipes",
         "children": []
+      },
+      {
+        "name": "Trades",
+        "children": []
       }
     ]
   },
@@ -1170,7 +1204,7 @@
     "modid": "the_food_mod",
     "modName": "The Food Mod",
     "version": "1.0.0",
-    "description": "Adds a ton of food and dishes to Minecraft.",
+    "description": "Adds a ton of food and dishes with some curious side effects...",
     "author": "gh5674",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
@@ -1182,6 +1216,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "fabric-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.thefoodmod",
     "lockBaseModFiles": false
   },

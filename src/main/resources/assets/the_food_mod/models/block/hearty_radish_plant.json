@@ -1,8 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "the_food_mod:block/hearty_radish_5",
-    "particle": "the_food_mod:block/hearty_radish_5"
-  },
-  "render_type": "cutout"
-}

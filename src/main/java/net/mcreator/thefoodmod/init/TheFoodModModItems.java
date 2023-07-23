@@ -5,8 +5,6 @@
 package net.mcreator.thefoodmod.init;
 
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTabs;
-import net.minecraft.world.item.BlockItem;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.Registry;
@@ -38,14 +36,11 @@ import net.mcreator.thefoodmod.item.CarrotCakeItem;
 import net.mcreator.thefoodmod.item.ButteredAppleItem;
 import net.mcreator.thefoodmod.TheFoodModMod;
 
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-
 public class TheFoodModModItems {
 	public static Item MIGHTY_BANANA;
 	public static Item TOMATO;
 	public static Item HEARTY_RADISH;
 	public static Item SPICY_PEPPER;
-	public static Item HEARTY_RADISH_PLANT;
 	public static Item BUTTERED_APPLE;
 	public static Item CARROT_CAKE;
 	public static Item EGG_PUDDING;
@@ -73,8 +68,6 @@ public class TheFoodModModItems {
 		TOMATO = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(TheFoodModMod.MODID, "tomato"), new TomatoItem());
 		HEARTY_RADISH = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(TheFoodModMod.MODID, "hearty_radish"), new HeartyRadishItem());
 		SPICY_PEPPER = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(TheFoodModMod.MODID, "spicy_pepper"), new SpicyPepperItem());
-		HEARTY_RADISH_PLANT = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(TheFoodModMod.MODID, "hearty_radish_plant"), new BlockItem(TheFoodModModBlocks.HEARTY_RADISH_PLANT, new Item.Properties()));
-		ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.NATURAL_BLOCKS).register(content -> content.accept(HEARTY_RADISH_PLANT));
 		BUTTERED_APPLE = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(TheFoodModMod.MODID, "buttered_apple"), new ButteredAppleItem());
 		CARROT_CAKE = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(TheFoodModMod.MODID, "carrot_cake"), new CarrotCakeItem());
 		EGG_PUDDING = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(TheFoodModMod.MODID, "egg_pudding"), new EggPuddingItem());
