@@ -1206,8 +1206,8 @@
     "version": "1.0.0",
     "description": "Adds a ton of food and dishes with some curious side effects...",
     "author": "gh5674",
-    "websiteURL": "https://mcreator.net",
-    "license": "Academic Free License v3.0",
+    "websiteURL": "https://mcreator.net/modification/98999/food-mod",
+    "license": "Apache License version 2.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "modPicture": "honeyed_apple",
@@ -1216,7 +1216,6 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "fabric-1.20.1",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.thefoodmod",
     "lockBaseModFiles": false
   },

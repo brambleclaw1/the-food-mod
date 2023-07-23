@@ -8,10 +8,10 @@
     "gh5674"
   ],
   "contact": {
-    "homepage": "https://mcreator.net",
+    "homepage": "https://mcreator.net/modification/98999/food-mod",
     "sources": ""
   },
-  "license": "Academic Free License v3.0",
+  "license": "Apache License version 2.0",
   "icon": "assets/the_food_mod/icon.png",
   "environment": "*",
   "entrypoints": {
