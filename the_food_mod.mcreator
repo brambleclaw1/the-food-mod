@@ -88,7 +88,7 @@
           }
         ]
       },
-      "path": "~/Bakable Items"
+      "path": "~/Procedures"
     },
     {
       "name": "ButteredApple",
@@ -123,7 +123,7 @@
           }
         ]
       },
-      "path": "~/Bakable Items"
+      "path": "~/Procedures"
     },
     {
       "name": "CarrotCake",
@@ -158,7 +158,7 @@
           }
         ]
       },
-      "path": "~/Bakable Items"
+      "path": "~/Procedures"
     },
     {
       "name": "EggPudding",
@@ -193,7 +193,7 @@
           }
         ]
       },
-      "path": "~/Bakable Items"
+      "path": "~/Procedures"
     },
     {
       "name": "FrenchFries",
@@ -228,7 +228,7 @@
           }
         ]
       },
-      "path": "~/Bakable Items"
+      "path": "~/Procedures"
     },
     {
       "name": "FriedBananas",
@@ -258,7 +258,7 @@
         ],
         "dependencies": []
       },
-      "path": "~/Bakable Items"
+      "path": "~/Procedures"
     },
     {
       "name": "FriedEgg",
@@ -293,7 +293,7 @@
           }
         ]
       },
-      "path": "~/Bakable Items"
+      "path": "~/Procedures"
     },
     {
       "name": "FruitAndMushroomMix",
@@ -328,7 +328,7 @@
           }
         ]
       },
-      "path": "~/Bakable Items"
+      "path": "~/Procedures"
     },
     {
       "name": "GrilledGreens",
@@ -363,7 +363,7 @@
           }
         ]
       },
-      "path": "~/Bakable Items"
+      "path": "~/Procedures"
     },
     {
       "name": "HeartySoup",
@@ -398,7 +398,7 @@
           }
         ]
       },
-      "path": "~/Bakable Items"
+      "path": "~/Procedures"
     },
     {
       "name": "HoneyedApple",
@@ -433,7 +433,7 @@
           }
         ]
       },
-      "path": "~/Bakable Items"
+      "path": "~/Procedures"
     },
     {
       "name": "MeatSkewer",
@@ -468,7 +468,7 @@
           }
         ]
       },
-      "path": "~/Bakable Items"
+      "path": "~/Procedures"
     },
     {
       "name": "MeatStew",
@@ -503,7 +503,7 @@
           }
         ]
       },
-      "path": "~/Bakable Items"
+      "path": "~/Procedures"
     },
     {
       "name": "MushroomSkewer",
@@ -538,7 +538,7 @@
           }
         ]
       },
-      "path": "~/Bakable Items"
+      "path": "~/Procedures"
     },
     {
       "name": "PepperSalad",
@@ -573,7 +573,7 @@
           }
         ]
       },
-      "path": "~/Bakable Items"
+      "path": "~/Procedures"
     },
     {
       "name": "RadishSalad",
@@ -608,7 +608,7 @@
           }
         ]
       },
-      "path": "~/Bakable Items"
+      "path": "~/Procedures"
     },
     {
       "name": "SauteedPeppers",
@@ -643,7 +643,7 @@
           }
         ]
       },
-      "path": "~/Bakable Items"
+      "path": "~/Procedures"
     },
     {
       "name": "SteamedFish",
@@ -678,7 +678,7 @@
           }
         ]
       },
-      "path": "~/Bakable Items"
+      "path": "~/Procedures"
     },
     {
       "name": "SteamedFruit",
@@ -713,7 +713,7 @@
           }
         ]
       },
-      "path": "~/Bakable Items"
+      "path": "~/Procedures"
     },
     {
       "name": "SteamedMeat",
@@ -748,7 +748,7 @@
           }
         ]
       },
-      "path": "~/Bakable Items"
+      "path": "~/Procedures"
     },
     {
       "name": "SteamedMushroom",
@@ -1158,8 +1158,8 @@
       "item.the_food_mod.mushroom_skewer": "Mushroom Skewer",
       "item.the_food_mod.sauteed_peppers": "Sauteed Peppers",
       "item.the_food_mod.mighty_banana": "Mighty Banana",
-      "item.the_food_mod.hearty_soup": "Hearty Soup",
       "item.the_food_mod.steamed_mushroom": "Steamed Mushroom",
+      "item.the_food_mod.hearty_soup": "Hearty Soup",
       "item.the_food_mod.pepper_salad": "Pepper Salad",
       "item.the_food_mod.meat_stew": "Meat Stew",
       "item.the_food_mod.buttered_apple": "Buttered Apple",
@@ -1196,6 +1196,10 @@
       },
       {
         "name": "Trades",
+        "children": []
+      },
+      {
+        "name": "Procedures",
         "children": []
       }
     ]
